@@ -16,10 +16,9 @@ body{
 
 .img-logo {
     height: 40px;
-    width: 132px;
+    width: 220px;
     display: block;
-    background: url('') no-repeat;
-    border: red;
+    background: url('imagens/bustima1.jpeg') no-repeat;
     background-size: contain;
     color: transparent;
 
@@ -49,7 +48,7 @@ nav.navbar-transparente {
 }
 
 .navbar-inverse .navbar-nav> li > a:hover, footer .nav a:hover{
-    color:#9bf0e1;
+    color: orange;
     background: none;
 
 }
@@ -77,13 +76,13 @@ nav.navbar-transparente {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    padding: 10px 35px;
+    padding: 10px 50px;
     text-transform: uppercase;
     transition: 0.4s, color 0.4s;
 }
 
 .btn-verde{
-    border: 3px solid green;
+    border: 3px solid rgb(245, 91, 31);
 }
 
 .btn-verde:hover{
@@ -106,16 +105,16 @@ nav.navbar-transparente {
 }
 
 .albuns{
-    padding: 10px 0px 10px 0px;
+    padding: none;
 }
 
-/*-- recursos -- */
+/*-- recursos --
 
 #recursos{    
     padding: 35px;
     padding-right: 0px;
     color:white;
-}
+}*/
 
 .rotacionar{
     transform: rotate(30deg);
